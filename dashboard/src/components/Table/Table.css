@@ -1,0 +1,123 @@
+.data-table {
+  width: auto;
+  background: white;
+  border-radius: 6px;
+}
+
+.table-header {
+  padding: 20px 16px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.table-title {
+  color: #4d4f5c;
+  font-weight: 400;
+  font-size: 16px;
+}
+
+.table-buttons {
+  display: flex;
+  align-items: center;
+}
+
+table {
+  width: 100%;
+  text-align: left;
+  font-size: 14px;
+  padding: 0 0.5em;
+  border-top: 0.5px solid #e4e5ec;
+  border-bottom: 0.5px solid #e4e5ec;
+}
+
+th,
+td {
+  padding: 10px 5px;
+  border-bottom: 0.2px solid #e4e5ec;
+}
+
+th {
+  color: #a3a6b4;
+  font-weight: 500;
+}
+
+td {
+  color: #4d4f5c;
+}
+
+tr {
+  box-sizing: border-box;
+}
+
+tr:hover {
+    background-color: #f8faff;
+}
+
+.add-button {
+  color: #ffffff;
+  background-color: #00b6e6;
+  padding: 8px 20px;
+  border-radius: 4px;
+  margin-right: 16px;
+}
+
+.filter-button {
+    color: #888993;
+    background-color: #f6f6f9;
+    padding: 10px 20px;
+    border-radius: 4px;
+    border: 1px solid #888993;
+    font-weight: 600;
+  }
+
+.button-icon {
+  margin-right: 8px;
+}
+
+.chevron-icon {
+    margin-left: 8px;
+  }
+
+.table-button {
+  display: block;
+  /* font-weight: normal; */
+  text-align: center;
+  white-space: nowrap;
+  /* background-color: transparent; */
+  background-image: none;
+  -ms-touch-action: manipulation;
+  touch-action: manipulation;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  /* border: none; */
+  cursor: pointer;
+}
+
+.table-button:focus,
+.table-button:active .table-button:active:focus {
+  outline: 0;
+  background-image: none;
+}
+
+.table-actions {
+    /* padding: 4px; */
+}
+
+.action-button {
+    color: #8a98ae;
+    background-color: #ffffff;
+    padding: 4px 6px;
+    border-radius: 4px;
+    border: 0.5px solid #d7dae2;
+    margin: 4px;
+  }
+
+  .action-button:focus, .action-button:hover,
+.action-button:active .action-button:active:focus {
+  outline: 0;
+  background-image: none;
+  border: 0.5px solid #8a98ae;
+}
