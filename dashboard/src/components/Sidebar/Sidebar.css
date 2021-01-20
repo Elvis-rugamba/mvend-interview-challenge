@@ -1,0 +1,55 @@
+.sidebar-container {
+    width: "auto";
+    position: fixed;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    background-color: #374c70;
+    width: 120px;
+    z-index: 9999;
+  }
+  
+  .side-nav {
+    /* padding: 10px 0; */
+    overflow-y: auto;
+  }
+  
+  .side-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 70px;
+    background: #fff;
+    border-right: 1px solid #e4e5ec;
+    padding: 15px;
+  }
+  
+  .logo {
+    color: #304262;
+  }
+  
+  .toggle {
+    background-color: transparent;
+    padding: 5px 12px;
+    display: inline-block;
+    text-align: center;
+    white-space: normal;
+    vertical-align: middle;
+    user-select: none;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    cursor: pointer;
+  }
+
+  .toggle:focus {
+    border: none;
+    outline: none;
+  }
+  
+  .toggle-icon {
+    color: #00b6e6;
+    font-size: 24px;
+  }
+  

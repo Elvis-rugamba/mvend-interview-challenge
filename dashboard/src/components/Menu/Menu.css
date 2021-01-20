@@ -1,0 +1,42 @@
+.link-item {
+    padding: 10px;
+      list-style: none;
+}
+
+a {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.menu-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 10px 10px;
+}
+
+.menu-icon {
+    font-size: 32;
+    color: #90a3bd;
+}
+
+.menu-label {
+    font-size: 16px;
+    font-weight: 600;
+    color: #90a3bd;
+    padding: 4px 0;
+}
+
+.activeLink .menu-item {
+    border-left: 4px solid #00b6e6;
+    background-color: #304262;
+}
+
+.activeLink .menu-icon {
+    color: #00b6e6;
+}
+
+.activeLink .menu-label {
+    color: #00b6e6;
+}

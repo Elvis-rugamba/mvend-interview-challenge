@@ -1,0 +1,132 @@
+.header-container {
+    padding-left: 120px;
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+}
+
+.navbar {
+    /* position: relative; */
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 1rem;
+    background-color: #fff;
+    height: 70px;
+  }
+  
+  .nav-link {
+      display: flex;
+      padding: 0.5rem 1rem;
+      align-items: center;
+    }
+    
+    .nav-link:hover, .nav-link:focus {
+      text-decoration: none;
+    }
+  
+  .navbar-nav {
+    display: -ms-flexbox;
+    display: flex;
+    align-items: center;
+    /* -ms-flex-direction: column;
+    flex-direction: column; */
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+  }
+  
+  .search-input {
+      padding: 8px 10px;
+      border: none;
+      outline: none;
+      color: #888ca7;
+      font-size: 14px;
+  }
+  
+  .search-input:focus, .search-input:active {
+      border: none;
+      outline: none;
+  }
+  
+  .notification {
+      border-left: 1px solid #e4e5ec;
+      border-right: 1px solid #e4e5ec;
+    }
+  
+  /* .navbar-nav .nav-link {
+    padding-right: 0;
+    padding-left: 0;
+  } */
+  
+  .navbar-nav .dropdown-menu {
+    position: static;
+    float: none;
+  }
+  
+  .navbar-item {
+      /* background-color: red; */
+      align-items: center;
+      justify-content: center;
+  }
+  
+  .nav-icon {
+      color: #bcbccb;
+  }
+  
+  .profile-img {
+      height: 35px;
+      width: 35px;
+      border: 1px solid #e4e5ec;
+      border-radius: 50px;
+      margin-right: 8px;
+  }
+  
+  .user-name {
+      margin-right: 4px;
+      color: #404672
+  }
+  
+  .chevron {
+      margin-bottom: -6px;
+  }
+  
+  .dropdown {
+    position: relative;
+  }
+  
+  .dropdown-menu {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    z-index: 1000;
+    /* display: none; */
+    float: left;
+    min-width: 10rem;
+    padding: 0.5rem 0;
+    margin: 0.125rem 0 0;
+    font-size: 1rem;
+    color: #212529;
+    text-align: left;
+    list-style: none;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid rgba(0, 0, 0, 0.15);
+    border-radius: 0.25rem;
+  }
+  
+  .dropdown-item {
+    display: block;
+    width: 100%;
+    padding: 0.25rem 1.5rem;
+    clear: both;
+    font-weight: 400;
+    color: #212529;
+    text-align: inherit;
+    white-space: nowrap;
+    background-color: transparent;
+    border: 0;
+  }
+  

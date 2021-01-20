@@ -1,0 +1,28 @@
+.layout-container {
+  height: 100%;
+  background-color: #0dee;
+  /* display: flex; */
+}
+
+.layout-wrapper {
+  min-height: 100%;
+  position: absolute;
+  left: 0;
+  right: 0;
+  transition: left 0.3s ease-in-out, right 0.3s ease-in-out;
+  background-color: #e9eef2;
+}
+
+.sidebarOpen {
+  /* @include media-breakpoint-down(sm) {
+      left: $sidebar-width-open;
+      right: -$sidebar-width-open;
+    } */
+}
+
+.layout-content {
+  min-height: 100%;
+  padding: 90px 60px 140px 180px;
+}
+
+
